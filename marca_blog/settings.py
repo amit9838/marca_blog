@@ -35,8 +35,8 @@ CORS_ORIGIN_WHITELIST = (
 )
 
 ALLOWED_HOSTS = ["*"]
-if not DEBUG:
-    CSRF_TRUSTED_ORIGINS = ["https://web-production-65a6.up.railway.app"]
+
+CSRF_TRUSTED_ORIGINS = ["https://web-production-65a6.up.railway.app","http://127.0.0.1:8000/"]
 
 
 # Application definition
