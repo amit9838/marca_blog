@@ -31,6 +31,8 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ["*"]
+if not DEBUG:
+    CSRF_TRUSTED_ORIGINS = ["https://web-production-65a6.up.railway.app"]
 
 
 # Application definition
