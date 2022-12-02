@@ -31,12 +31,12 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
 CORS_ORIGIN_WHITELIST = (
-    "https://web-production-65a6.up.railway.app"
+    "https://*.up.railway.app"
 )
 
 ALLOWED_HOSTS = ["*"]
 if not DEBUG:
-    CSRF_TRUSTED_ORIGINS = ["https://*railway.app"]
+    CSRF_TRUSTED_ORIGINS = ["https://*.up.railway.app"]
 
 
 # Application definition
