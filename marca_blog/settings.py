@@ -30,9 +30,9 @@ SECRET_KEY = config('SECRET_KEY')
 # DEBUG = config('DEBUG',cast = bool)
 DEBUG = config('DEBUG')
 
-# CORS_ORIGIN_WHITELIST = (
-#     "https://marcablog-production.up.railway.app/"
-# )
+CORS_ORIGIN_WHITELIST = (
+    "https://marcablog-production.up.railway.app/"
+)
 
 ALLOWED_HOSTS = ["*"]
 
