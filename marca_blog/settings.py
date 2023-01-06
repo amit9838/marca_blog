@@ -31,12 +31,12 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
 CORS_ORIGIN_WHITELIST = (
-    "https://marcablog-production.up.railway.app/"
+    "https://marcablog-production.up.railway.app"
 )
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ["https://marcablog-production.up.railway.app/","http://127.0.0.1:8000/"]
+CSRF_TRUSTED_ORIGINS = ["https://marcablog-production.up.railway.app","http://127.0.0.1:8000/"]
 
 
 # Application definition
